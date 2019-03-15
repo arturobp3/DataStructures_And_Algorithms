@@ -1,0 +1,13 @@
+﻿Compilación iniciada a las 11/09/2018 18:58:14.
+     1>Proyecto "C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\SinPoda\SinPoda.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main2Final.cpp
+         main2Final.cpp
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\Debug\SinPoda.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\Debug\SinPoda.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\Debug\SinPoda.lib" /MACHINE:X86 Debug\main2Final.obj
+         SinPoda.vcxproj -> C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\Debug\SinPoda.exe
+     1>Compilación del proyecto terminada "C:\Users\Arturo\Desktop\Ejercicio 2 Examen 2018 Sept\SinPoda\SinPoda\SinPoda.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.65

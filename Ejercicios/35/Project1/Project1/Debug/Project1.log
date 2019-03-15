@@ -1,0 +1,15 @@
+﻿Compilación iniciada a las 20/02/2018 14:37:35.
+     1>Proyecto "C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Project1\Project1.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\arturo\desktop\eda\juez\35\project1\project1\polinomio.h(85): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\arturo\desktop\eda\juez\35\project1\project1\main.cpp(41): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\main.obj
+         Project1.vcxproj -> C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Debug\Project1.exe
+     1>Compilación del proyecto terminada "C:\Users\Arturo\Desktop\EDA\Juez\35\Project1\Project1\Project1.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.50

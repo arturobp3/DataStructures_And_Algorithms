@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 23/08/2018 13:47:57.
+     1>Proyecto "F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\A55\A55.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>f:\archivos\ingeniería informática\ucm - curso\segundo - 2ºa\(eda) estructura de datos y algoritmos\eda\juez\55\a55\source.cpp(36): warning C4101: 'p' : variable local sin referencia
+     1>f:\archivos\ingeniería informática\ucm - curso\segundo - 2ºa\(eda) estructura de datos y algoritmos\eda\juez\55\a55\source.cpp(53): warning C4018: '<' : no coinciden signed/unsigned
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\Debug\A55.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\Debug\A55.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\Debug\A55.lib" /MACHINE:X86 Debug\Source.obj
+         LINK : no se encontró F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\Debug\A55.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+         A55.vcxproj -> F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\Debug\A55.exe
+     1>Compilación del proyecto terminada "F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\55\A55\A55.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.03

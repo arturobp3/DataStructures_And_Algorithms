@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 23/08/2018 19:35:19.
+     1>Proyecto "F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Project1\Project1.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ejercicio.cpp
+         ejercicio.cpp
+     1>f:\archivos\ingeniería informática\ucm - curso\segundo - 2ºa\(eda) estructura de datos y algoritmos\eda\juez\58\project1\project1\ejercicio.cpp(144): warning C4018: '<' : no coinciden signed/unsigned
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\ejercicio.obj
+         Project1.vcxproj -> F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Debug\Project1.exe
+     1>Compilación del proyecto terminada "F:\ARCHIVOS\Ingeniería Informática\UCM - Curso\Segundo - 2ºA\(EDA) Estructura de Datos y Algoritmos\EDA\Juez\58\Project1\Project1\Project1.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.02
