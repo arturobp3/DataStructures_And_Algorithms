@@ -1,85 +1,98 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
-/*#include <iomanip>
-#include <locale>
-#include <iostream>
-#include <sstream>
-#include <deque>
-#include <cmath*/
+#include <vector>
 using namespace std;
 
 
-template<class T>
-string format(T value)
-{
-	stringstream ss;
-	ss.imbue(locale(""));
-	ss << fixed << value;
-	return ss.str();
-}
-
-
 bool casoDePrueba() {
-	
-	string num;
-	int out = 0;
 
-	cin >> num;
+	char c = ' ';
 
-	string outS = num;
 
-	if (!cin)
+	cin.get(c);
+
+	if (!cin){
 		return false;
-	else {
-		int n, carry = 0;
-		bool llevar = false;
-		int j = num.length() - 1;
-		char n_char;
-		
-		for (int i = num.length() - 1; i >= 0; i--){
-			n_char = getchar();
+	}
+	else{
+		vector<char> num;
+		vector<char> uno;
+		int n;
 
+		while (c != '\n'){
+
+			if (c == '.'){
+				num.push_back('.');
+				uno.push_back('.');
+			}
+			else{
+				num.push_back(c);
+				uno.push_back('0');
+			}
+			
+			cin.get(c);
+			if (c == '\n'){
+				uno.pop_back();
+				uno.push_back('1');
+			}
+		}
+
+		vector<char> res(num.size(), 0);
+		int a, b, c;
+		bool guardarCarry = false;
+		for (int i = num.size() - 1; i >= 0; i--){
+
+			//si es un punto,poner punto
+			if (num[i] == '.'){
+				res[i] = '.';
+			}
+			else{
+				a = num[i] - '0';
+				b = uno[i] - '0';
+				c = a + b;
+
+				if (c / 10 == 1){ // Hay carry
+					res[i] = '0';
+					if (i - 1 >= 0){
+						if (uno[i - 1] != '.'){
+							uno[i - 1] = '1';
+						}
+						else{
+							if (i - 2 >= 0){
+								uno[i - 2] = '1';
+							}
+						}
+					}
+					else{
+						// si no hay anterior
+			
+						if (res.size() >= 3 && res[0] == '0' && res[1] == '0' && res[2] == '0'){
+							res.insert(res.begin(), '.');
+						}
+						res.insert(res.begin(), '1');
+					}
+				}
+				else{ // No hay carry
+					res[i] = (char)(c + '0');
+				}
+			}
 		}
 
 
-			/*if (num[i] != '.'){
-				n += carry;
-				if (i == num.length() - 1){
-					n += 1;
-				}
+		for (char c : res){
+			cout << c;
+		}
 
-				carry = n / 10;
-
-				if (llevar){
-					out = n * pow(10, num.length() - j - 1);
-					if (carry == 0){
-						llevar = false;
-					}
-				}
-				else if (carry == 1){
-					n = 10;
-					llevar = true;
-					out = n * pow(10, num.length() - j - 1);
-				}
-				else{
-					if (llevar){
-						llevar = false;
-					}
-					out += n * pow(10, num.length() - j - 1);
-				
-			j--;
-		}*/
+		cout << endl;
 
 
-		//cout << format(out) << endl;
-
-		cout << outS << endl;
-
-
-		return true;
 	}
+
+	return true;
 }
+
+
 
 
 int main() {
